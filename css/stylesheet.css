@@ -77,11 +77,14 @@ nav li button{
 }
 @media only screen and (max-width:600px){
     #Home {
-        background:#9F1A17 url("../images/Pill3.jpg");
+        background:#9F1A17 url("../images/Pill.jpg");
         background-position: center;
         background-repeat: no-repeat; 
         background-size: 450px 700px;
         margin-top: 80px;
+    }
+    .navbar-brand img {
+        width: 224px;
     }
 }
 /* .stars i {
@@ -91,6 +94,9 @@ nav li button{
     font-size: 25px;
     color: #117982 !important;
     font-weight: bold;
+}
+.footer-logo {
+    width: 224px;
 }
 .footer-nav {
     list-style-type: none;
