@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
 body, html {
     background: #222A34 !important;
     font-family: 'Lato', sans-serif !important;
@@ -7,31 +6,37 @@ body, html {
     scroll-behavior: smooth;
     color: #fff;
 }
+::selection {
+    color: #000;
+}
 .navbar {
     background: #222A34 !important;
 }
 nav li a.nav-link{
-    font-size: 13px;
+    font-size: 20px;
     color: #ffffff !important;
+    font-weight: normal;
 }
 nav li a:hover{
     color: #ffffff;
 }
 nav li button{
     border-radius: 50px !important;
-    font-size: 13px !important;
+    font-size: 20px !important;
 }
 .navbar-toggler:focus {
     outline: none !important;
 }
 #Home {
-    background: #9F1A17;
-    background-image: url("../images/Pill.png");
+    background:#9F1A17 url("../images/Pill.jpg");
     background-position: center;
-    margin-top: 3.7rem;
+    background-repeat: no-repeat; 
+    background-size: 500px 700px;
+    margin-top: 80px;
 }
 .homepage-title {
     color: #fff;
+    font-weight: bold;
 }
 .home-btn {
     border-radius: 0px;
@@ -44,12 +49,16 @@ nav li button{
     background: #000 !important;
 } 
 #Testimonial-Section .card {
-    position: relative;
-}
-.card {
+    float: left;
+    margin: -30px 0px;
     color: #222A34 !important;
 }
 .card-image {
+    border: 1px solid #222A34 !important;
+    width: 212px;
+    height: 212px;
+}
+.card .img-fluid {
     border: 1px solid #222A34 !important;
 }
 @media only screen and (min-width:969px){
@@ -61,6 +70,19 @@ nav li button{
     .mt-n10 {
         margin-top: -6rem !important;
     }
+    nav li a.nav-link{
+        font-size: 14px;
+        color: #ffffff !important;
+    }
+}
+@media only screen and (max-width:600px){
+    #Home {
+        background:#9F1A17 url("../images/Pill3.jpg");
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-size: 450px 700px;
+        margin-top: 80px;
+    }
 }
 /* .stars i {
     font-size: 12px !important;
@@ -68,6 +90,7 @@ nav li button{
 .footer-sections-heading {
     font-size: 25px;
     color: #117982 !important;
+    font-weight: bold;
 }
 .footer-nav {
     list-style-type: none;
