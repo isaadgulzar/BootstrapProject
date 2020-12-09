@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body, html {
+    background: #222A34 !important;
+    font-family: 'Lato', sans-serif !important;
+    height: 100%;
+    scroll-behavior: smooth;
+    color: #fff;
+}
+.navbar {
+    background: #222A34 !important;
+}
+nav li a.nav-link{
+    font-size: 13px;
+    color: #ffffff !important;
+}
+nav li a:hover{
+    color: #ffffff;
+}
+nav li button{
+    border-radius: 50px !important;
+    font-size: 13px !important;
+}
+.navbar-toggler:focus {
+    outline: none !important;
+}
+#Home {
+    background: #9F1A17;
+    background-image: url("../images/Pill.png");
+    background-position: center;
+    margin-top: 3.7rem;
+}
+.homepage-title {
+    color: #fff;
+}
+.home-btn {
+    border-radius: 0px;
+    background: #000 !important;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+}
+#Testimonial-Section {
+    background: #000 !important;
+} 
+#Testimonial-Section .card {
+    position: relative;
+}
+.card {
+    color: #222A34 !important;
+}
+.card-image {
+    border: 1px solid #222A34 !important;
+}
+@media only screen and (min-width:969px){
+    .mt-n10 {
+        margin-top: -6rem !important;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:768px){
+    .mt-n10 {
+        margin-top: -6rem !important;
+    }
+}
+/* .stars i {
+    font-size: 12px !important;
+} */
+.footer-sections-heading {
+    font-size: 25px;
+    color: #117982 !important;
+}
+.footer-nav {
+    list-style-type: none;
+    padding: 0px;
+    color: #fff !important;
+}
+.footer-nav li{
+    padding: 19.4px 0px 0px 0px;
+    font-size: 12.8px;
+}
+.footer-nav.contact-details li{
+    padding: 18.4px 0px 0px 0px;
+    font-size: 12.8px;
+}
+.footer-nav li a {
+    color: #fff !important;
+    text-decoration: none;
+}
+.footer-nav li a:hover {
+    color:  #117982 !important;
+}
+.social-icons {
+    color:  #707070 !important;
+    font-size: 25px;
+    margin-right: 5px;
+}
+.social-icons:hover {
+    color:  #117982 !important;
+}
+input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #707070;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 60%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    color: #fff;
+}
+.form-append-btn {
+    height: 30px !important;
+    margin-top: 20px;
+    background: none;
+    outline: none;
+    border: none;
+}
+.form-append-btn i{
+    color: #707070;
+}
+.form-append-btn i:hover{
+    color: #fff;
+}
+.form-append-btn:focus{
+    outline: none;
+}
